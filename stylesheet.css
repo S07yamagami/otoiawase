@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8d6d6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.form-item {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+
+input[type="submit"] {
+    background-color: #419243;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #419243;
+}
+
+
+.thanks-message {
+    font-size: 1.2em;
+    color: #419243;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.display-contact .form-item {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.display-contact div {
+    margin-bottom: 10px;
+}
